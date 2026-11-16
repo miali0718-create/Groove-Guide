@@ -1,0 +1,291 @@
+[
+  {
+    "id": "hip-hop",
+    "name": "Hip-hop (嘻哈舞)",
+    "description": "源自紐約街頭派對的經典舞風，強調身體自然的律動（Groove）、上下彈動（Bounce）與自由即興表達。",
+    "history": "Hip-hop 舞蹈於 1970 年代末至 1980 年代在美國紐約市（特別是布朗克斯與布魯克林）的街頭與社區派對中孕育而生。它與嘻哈四大元素（DJ、MC、塗鴉、B-boying）緊密相扣。1980 年代後期至 1990 年代，以 Buddha Stretch、Henry Link 等傳奇舞者組成的 Elite Force Crew 與 Mop Top 等團隊，將街頭派對舞步（Party Dances）整理推廣，奠定了當代 Hip-hop（Middle School / New School）的基礎與舞蹈語彙。",
+    "features": "核心在於身體隨音樂產生的律動（Groove），包含向下沉的 Down Bounce 與向上提的 Up Bounce。舞者身體維持微蹲與放鬆狀態，注重核心與胸腔的滾動（Roll）、雙腳步伐的流暢變換，以及配合節奏的自由即興（Freestyle）。",
+    "music": "主要搭配 Hip-hop 音樂，涵蓋 1980 至 1990 年代的經典 Boom Bap，以及現代的 Trap 與 R&B，速度通常在 80 至 105 BPM 之間。重視重音（Kick）與小鼓（Snare）的拍點對比，舞者常依歌詞意境與反拍進行細膩卡點。",
+    "moves": [
+      {
+        "name": "Up & Down Bounce",
+        "description": "Hip-hop 的根基律動，運用膝蓋與腳踝關節的屈伸帶動全身產生規律彈動。"
+      },
+      {
+        "name": "Party Dances",
+        "description": "經典派對動作如 Prep, Roger Rabbit, Steve Martin, Bart Simpson, Running Man，為步伐與協調性打底。"
+      },
+      {
+        "name": "Roll & Wave",
+        "description": "胸腔、肩膀與骨盆的環形滾動，使動作在重拍與旋律之間流暢銜接。"
+      },
+      {
+        "name": "Isolations & Footwork",
+        "description": "頭、胸、髖部獨立分開控制，搭配敏捷的踏步與換重，呈現層次豐富的節奏感。"
+      }
+    ],
+    "beginner_guide": "1. 專注於 Bounce：不要急於練習複雜大動作，先跟著音樂單純練習 Down Bounce 與 Up Bounce，讓身體習慣隨拍子沉浮。\n2. 放鬆膝蓋與肩膀：肌肉過度僵硬會阻礙律動，保持微蹲與彈性是關鍵。\n3. 大量聆聽 Hip-hop 音樂：在日常生活中訓練辨識小鼓（2、4 拍）與大鼓重音的能力。\n4. 熟練經典 Party Dance：透過經典舞步建立身體協調性與記憶，再嘗試加入個人即興風格。",
+    "personal_observations": "快速分辨Hiphop的方法是通常衣著寬鬆、大律動和身體bounce很明顯的舞者~近年在台灣有明顯的南北區分，相比北部，南部多習慣更慢更old school的風格。",
+      
+    "sources": [
+      {
+        "title": "Hip-Hop Dance History & Roots",
+        "author_institution": "Elite Force Crew / Buddha Stretch",
+        "url": "https://www.eliteforcecrew.com",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "The History of Hip Hop Dance: From the Bronx to the World",
+        "author_institution": "Red Bull Dance",
+        "url": "https://www.redbull.com/int-en/history-of-hip-hop-dance",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Hip-Hop Dance Guide & Cultural Context",
+        "author_institution": "Smithsonian National Museum of African American History and Culture",
+        "url": "https://nmaahc.si.edu/explore/stories/hip-hop",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "popping",
+    "name": "Popping (機械舞 / 震感舞)",
+    "description": "藉由肌肉迅速收縮與瞬間放鬆製造震動感（Pop/Hit），結合幾何關節控制與流暢滑步的放克舞風。",
+    "history": "Popping 起源於 1970 年代中後期的美國加州弗雷斯諾（Fresno）。由 Boogaloo Sam（Sam Solomon）創立傳奇團體 The Electric Boogaloos，將肌肉收縮震動的「Pop」與身體流暢滾動的「Boogaloo」風格融合推廣。透過電視節目《Soul Train》與電影《Breakin'》傳播至世界各地，成為放克風格（Funk Styles）的標誌性舞風。",
+    "features": "核心技術在於肌肉的快速緊繃收縮與瞬間放鬆（Pop/Hit），常運用於手部、腿部、胸肌與頸部。廣泛融合角度控制（Tutting/Angles）、波浪流動（Waving）、急停定格（Dime Stop）、機器人定格（Robot/Botting）以及地面滑行（Gliding/Floating）等視覺技巧。",
+    "music": "主要使用放克（Funk）、電子放克（Electro Funk）與 G-Funk，速度約在 90 至 115 BPM。代表音樂創作者包括 Zapp & Roger, Parliament, Cameo 等。強烈的電貝斯節奏（Bassline）與清晰的小鼓重拍是 Poppers 判定震點的核心依據。",
+    "moves": [
+      {
+        "name": "Pop / Hit",
+        "description": "肌肉瞬間收緊再立即放鬆，使身體產生震動與頓點的視覺震撼。"
+      },
+      {
+        "name": "Boogaloo Roll",
+        "description": "以膝蓋、骨盆或胸部為軸心做圓形或螺旋軌跡的連貫轉動，呈現柔軟彈性的線條。"
+      },
+      {
+        "name": "Fresno",
+        "description": "Boogaloo Sam 創立的基礎步伐，左右側移步伐搭配手臂角度與側身 Pop。"
+      },
+      {
+        "name": "Waving & Gliding",
+        "description": "如電流穿過關節的波浪（Waving），以及利用腳尖腳跟重心轉換製造如在冰面滑行的步伐（Gliding）。"
+      }
+    ],
+    "beginner_guide": "1. 理解發力原理：Pop 是「放鬆→瞬間收縮→立即放鬆」，切勿全程肌肉死力緊繃，避免運動傷害且動作僵硬。\n2. 單一部位分別打底：每天單獨練習手臂、腿部、胸部的發力與震點，提升大腦對特定肌肉的獨立控制力。\n3. 重視拍點精準度：不要為了追求震感而搶拍，學會把 Hit 精準落在音樂的小鼓重音上。\n4. 練習停頓定格（Dime Stop）：在動作停止的瞬間視線與身體完全靜止，能使舞蹈更加乾淨俐落。",
+    "personal_observations": "Popping 是很明顯能看出來的舞風，多輕快豐富電子音效卡點的音樂，配合節拍瞬間收所肌肉達到酷炫的舞步。",
+    "sources": [
+      {
+        "title": "History of Popping and Boogaloo",
+        "author_institution": "The Electric Boogaloos Official Archive",
+        "url": "https://www.electricboogaloos.com",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Everything You Need to Know About Popping Dance",
+        "author_institution": "Red Bull Dance",
+        "url": "https://www.redbull.com/int-en/popping-dance-history-guide",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Funk Styles History and Culture",
+        "author_institution": "Universal Zulu Nation",
+        "url": "https://www.zulunation.com",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "locking",
+    "name": "Locking (鎖舞)",
+    "description": "充滿陽光活力、喜劇節奏與俐落停頓的放克舞風，以快速的手腕旋轉與瞬間急停定格「Lock」為主要特徵。",
+    "history": "Locking 於 1960 年代末由 Don Campbell 在美國洛杉磯意外創造。當時他在嘗試模仿傳統舞步（Funky Chicken）時在中途卡住停頓，意外產生了極具戲劇性的急停鎖定效果，稱為「The Lock」。1970 年代，Don Campbell 與 Greg Campbellock Jr., Shabba-Doo, Flukey Luke, Tony Go-Go 等舞者組成「The Campbellockers」，登上傳奇電視綜藝《Soul Train》，以鮮豔穿搭與歡樂律動聞名世界。",
+    "features": "動靜對比極為強烈：在快速、流暢的手臂繞環與指向動作中，瞬間定格鎖定（Locking），隨即配合表情與舞伴互動。動作線條開闊、活潑且充滿舞台戲劇張力。",
+    "music": "主要使用 1970 年代經典放克（Funk）與靈魂樂（Soul），速度大約在 110 至 125 BPM。代表音樂家包含 James Brown, Kool & The Gang, Earth, Wind & Fire 等，強勁的反拍律動與銅管樂器是 Locking 能量的靈魂。",
+    "moves": [
+      {
+        "name": "The Lock",
+        "description": "身體微前傾、雙臂呈屈曲防守姿勢瞬間定格停住，為 Locking 最具代表性的核心動作。"
+      },
+      {
+        "name": "Twirl / Wrist Roll",
+        "description": "雙手手腕在頭頂兩側或身前快速且流暢地做內外繞環，為串接動作的關鍵技法。"
+      },
+      {
+        "name": "Point",
+        "description": "快速、篤定且具戲劇感的單手或雙手指向，用於與觀眾或舞者進行目光交流。"
+      },
+      {
+        "name": "Pacing & Scooby Doo",
+        "description": "拍擊節奏的步伐（Pacing）與充滿歡樂動感的躍動跳步（如 Scooby Doo, Leo Walk）。"
+      }
+    ],
+    "beginner_guide": "1. 確保 Lock 的形狀明確乾淨：Lock 不是隨意停下，手臂手腕的高度與身體前傾角度需要固定且俐落。\n2. 保持歡樂自信神態：Locking 帶有強烈的社交與喜劇互動特質，自然的笑容與眼神交流是舞風的重要部分。\n3. 手腕旋轉（Twirl）路徑緊湊：繞手時手腕靠近耳際或身側，避免手臂外張晃動過大。\n4. 聽清楚 Funk 音樂的銅管與反拍鼓點：配合重音定格，能展現無可取代的節奏爆發力。",
+    "personal_observations": "Locking 的舞者通常穿著很紳士感、復古感西裝、報童帽。力求傳達給觀眾活發的能量，是一個講求感染力的舞風。",
+    "sources": [
+      {
+        "title": "The Origin of Campbellocking",
+        "author_institution": "LockerLegends Official History",
+        "url": "http://www.lockerlegends.net",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Locking Dance Style: History, Moves and Culture",
+        "author_institution": "Red Bull Dance",
+        "url": "https://www.redbull.com/int-en/locking-dance-guide",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Soul Train Dance Pioneers: Don Campbell and The Lockers",
+        "author_institution": "Soul Train Cultural Archives",
+        "url": "https://soultrain.com",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "breaking",
+    "name": "Breaking (霹靂舞 / B-boying / B-girling)",
+    "description": "嘻哈四大元素之一，結合站立搖滾步、近地排腿地力與極限旋轉定格，已被列為奧運正式競賽項目。",
+    "history": "Breaking 誕生於 1970 年代初期的美國紐約布朗克斯（The Bronx）。傳奇 DJ Kool Herc 在派對上使用雙黑膠唱盤循環播放音樂中的純打擊節奏間奏（Breakbeat），在場跳舞的年輕人便被稱為 Break-boys（B-boys）與 Break-girls（B-girls）。隨後經過 Rock Steady Crew（Crazy Legs、Ken Swift 等）、The Zulu Kings 及 NYC Breakers 的創新突破，發展出地心引力對抗的旋轉招式，並於 2024 年巴黎奧運登上全球競技殿堂。",
+    "features": "對肢體肌力、平衡感與敏捷爆發力要求極高。舞者在立體空間中自在穿梭，從站立的律動流暢轉換至貼近地面的旋轉，並在音樂高潮處瞬間定格於單手或頭部，兼具藝術即興與體能挑戰。",
+    "music": "主要使用 Breakbeats、放克鼓點（Funk Breaks）與老搖滾節奏，速度通常在 110 至 135 BPM 之間。音樂核心為密集的鼓點獨奏（Drum Break），例如 The Incredible Bongo Band 的〈Apache〉或 Jimmy Castor Bunch 的〈It's Just Begun〉。",
+    "moves": [
+      {
+        "name": "Toprock",
+        "description": "站立時的步伐與律動（如 Indian Step、Cross Step），為進入地面動作的前導詮釋。"
+      },
+      {
+        "name": "Footwork (Downrock)",
+        "description": "雙手撐地並以雙腳在地面靈活穿梭踢踏的技術，經典動作如 Six-step（六步）、Three-step 與 CCs。"
+      },
+      {
+        "name": "Power Moves",
+        "description": "具備高度旋轉性與離心力的爆發技巧，如 Windmill（風車）、Headspin（頭轉）、Flare（鞍馬迴旋）。"
+      },
+      {
+        "name": "Freezes",
+        "description": "在音樂重音時瞬間將全身重量支撐定格在空中，如 Baby Freeze、Chair Freeze 或 Air Baby。"
+      }
+    ],
+    "beginner_guide": "1. 重視手腕與關節暖身：下地支撐需要手腕承受全身重量，練習前務必徹底活動手腕、腳踝與肩頸。\n2. 扎實打底 Six-step 與 Baby Freeze：這兩項是地力與重心的基石，熟練後再挑戰進階變化。\n3. 切勿盲目速成大招（Power Moves）：在沒有足夠核心力量與協調性時硬練旋轉大招極易造成韌帶與肩關節受傷。\n4. 聽懂鼓點循環（Breaks）：Breaking 絕非雜技，Toprock 與下地動作必須與鼓點節奏緊密呼應。",
+    "personal_observations": "breaking舞者比較需要手臂及核心力量的迅速收緊，以台灣很有名的breaking團體即是築夢者，我身邊凡是跳地板舞的朋友，不論男女都有加入築夢者，都被培養得很厲害!",
+    "sources": [
+      {
+        "title": "History of Breaking: From the Bronx to the Olympic Stage",
+        "author_institution": "World DanceSport Federation (WDSF)",
+        "url": "https://www.worlddancesport.org",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Red Bull BC One: The Ultimate Breaking Resource",
+        "author_institution": "Red Bull BC One",
+        "url": "https://www.redbull.com/int-en/event-series/red-bull-bc-one",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "The Roots of B-Boying and Hip Hop Culture",
+        "author_institution": "Universal Hip Hop Museum (UHHM)",
+        "url": "https://uhhm.org",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "waacking",
+    "name": "Waacking (甩手舞 / 哇嘻)",
+    "description": "起源於 1970 年代洛杉磯地下俱樂部，以極速肩膀手腕繞環、戲劇化姿態（Posing）與情感澎湃為靈魂的迪斯可舞風。",
+    "history": "Waacking（早期亦被稱為 Punking）誕生於 1970 年代初美國洛杉磯的地下 LGBTQ+ 與少數族裔夜店（如 Brass Rail 等）。當時舞者在舞池中從好萊塢黃金時代無聲電影巨星（如 Greta Garbo、Marilyn Monroe）的優雅身姿汲取靈感，創造出強烈戲劇張力與自我賦權的表達方式。Tyrone Proctor, Archie Burnett, Viktor Manoel 等先驅推動了此風格，並透過電視節目《Soul Train》推廣至大眾文化。",
+    "features": "極高辨識度的手臂手腕快速甩動（Waack）、繞頭繞背，結合優雅戲劇性的定格（Posing）、流暢的行進走位（Lines）與強大的眼神氣場。舞者藉由音樂徹底釋放情緒，動作充滿力量與優雅交織的魅力。",
+    "music": "經典 1970 年代 Disco（迪斯可）音樂，速度約在 115 至 130 BPM 之間。代表音樂人包括 Donna Summer, Sylvester, Diana Ross, Chic 等。豐富的弦樂編排與高亢富有情感的女聲，是 Waacker 詮釋情感與節奏高潮的最佳媒介。",
+    "moves": [
+      {
+        "name": "Waack / Arm Rolls",
+        "description": "手臂與手腕以前後、順逆時針方向緊貼肩膀、頸部及背後快速旋繞甩動的基礎技巧。"
+      },
+      {
+        "name": "Posing",
+        "description": "模仿復古時尚雜誌與好萊塢劇照的瞬間戲劇性定格，眼神與身段充滿自信與情緒張力。"
+      },
+      {
+        "name": "Twirls & Overhead Sweeps",
+        "description": "手腕在頭頂或身前做精密靈動的八字旋轉與大範圍劃圈，強化線條延展性。"
+      },
+      {
+        "name": "Lines & Catwalks",
+        "description": "在舞池中昂首自信的步伐、延伸線條與優雅轉身，展現強大個人氣場。"
+      }
+    ],
+    "beginner_guide": "1. 鍛鍊肩關節靈活性與肌耐力：手臂長時間高速繞動容易肩頸緊繃，每日做足肩袖與手臂拉筋及耐力訓練。\n2. 手腕繞點緊貼身體：甩手時手肘不隨意大幅晃動，手腕應乾淨貼近耳際與背後，動作才能精緻緊湊。\n3. 聆聽迪斯可音樂的情感起伏：Waacking 不只是單純甩手，更重要的是藉由歌曲講述自身故事，融入情緒表達。\n4. 自信與眼神傳遞：面對鏡子練習時注視自己的眼神，建立毫不妥協的舞台氣勢。",
+    "personal_observations": "waacking主打優雅快速的手部線條及舞者的音樂性，一種很適合拿來battle的舞蹈，會讓人感受到強烈的侵略性。",
+    "sources": [
+      {
+        "title": "History of Waacking and Punking: The True Underground Story",
+        "author_institution": "International Waack/Punk Society / Tyrone Proctor Archives",
+        "url": "https://www.waackin.com",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "The Resurgence and Heritage of Waacking",
+        "author_institution": "Dance Magazine Historical Retrospective",
+        "url": "https://www.dancemagazine.com",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "Waacking: From Underground LA to Global Phenomenon",
+        "author_institution": "Red Bull Dance",
+        "url": "https://www.redbull.com/int-en/waacking-dance-history-guide",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "krump",
+    "name": "Krump (狂潮舞 / 狂舞)",
+    "description": "發源於洛杉磯南部街頭，以強烈爆發力的跺腳（Stomp）、胸震（Chest Pop）與揮臂（Arm Swing）為特色，強調釋放真實情感與精神能量的街頭舞風。",
+    "history": "Krump 於 2000 年代初誕生於美國加州洛杉磯南部（South Central Los Angeles）。由 Ceasare \"Tight Eyez\" Willis 與 Jo'Artis \"Big Mijo\" Ratti 共同創立。它源於當時流行的 Clowning（由 Tommy the Clown 帶起的小丑舞），但舞者們希望透過更原始、深沉且強烈的方式，將生活在貧民區所面臨的壓迫、憤怒與情緒昇華為非暴力的舞蹈能量。2005 年由攝影大師 David LaChapelle 執導的紀錄片《Rize》（衝出狂潮）將 Krump 推向國際視野。",
+    "features": "極具爆發力、原始張力與戲劇性。舞者常在圓圈（Cypher / Session）中進行高強度的 Battle，圍觀者會給予強烈的呼應（Hype）。動作看似具攻擊性，實則講求高度身體控制力，以釋放情緒（Spiritual Expression）為核心本質。",
+    "music": "主要使用重低音強勁、節奏快速且富含侵略性鼓點的 Krump Beats（通常在 100 至 140 BPM），包含快速的小鼓切分、重型 808 貝斯與具壓迫感的電子合成音效。代表製作人團體如 J-Squad 等。舞者隨著拍子的重擊與高亢人聲段落爆發力量。",
+    "moves": [
+      {
+        "name": "Stomp",
+        "description": "雙腳重重跺向地面，利用雙腳與地面的撞擊點傳遞力量與節奏，象徵扎根與釋放能量。"
+      },
+      {
+        "name": "Chest Pop",
+        "description": "胸腔向外或向上的爆發性彈動與震動，是 Krump 展現核心生命力與情緒呼吸的關鍵技巧。"
+      },
+      {
+        "name": "Arm Swing",
+        "description": "手臂模擬投擲、揮擊等大動作的強烈揮動，軌跡精準且兼具速度與爆發力。"
+      },
+      {
+        "name": "Jab",
+        "description": "手臂快速向前的短促直線突刺擊打，動作俐落，常用於節奏卡點與 Battle 時的對峙震撼。"
+      }
+    ],
+    "beginner_guide": "1. 扎實練習三大基礎元素（Stomps, Chest Pops, Arm Swings）：Krump 絕非胡亂甩動，三大基本功決定動作的重量感與乾淨度。\n2. 學會控制力與保護關節：爆發力輸出必須配合肌力緩衝，特別要注意肘關節、肩袖與膝蓋，避免完全死力鎖死受傷。\n3. 理解 Krump 的核心精神：Krump 是情緒的非暴力釋放途徑（Get Krump），進入狀態（Buck）需要發自內心的真誠投入而非空洞模仿。\n4. 融入 Session / Cypher 文化：練習在圈子中感受音樂鼓點與同伴的 Hype 互動，培養即興表達的自信。",
+    "personal_observations": null,
+    "sources": [
+      {
+        "title": "Rize (Documentary Feature on Krump Culture)",
+        "author_institution": "David LaChapelle / Lions Gate Films",
+        "url": "https://www.imdb.com/title/tt0434312/",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "What is Krump? Dance History, Style and Pioneers",
+        "author_institution": "Red Bull Dance",
+        "url": "https://www.redbull.com/int-en/krump-dance-guide",
+        "date_accessed": "2026-11-16"
+      },
+      {
+        "title": "The Roots and Evolution of Krump Dance",
+        "author_institution": "Tight Eyez / The Official Krump Movement Archives",
+        "url": "https://www.tighteyez.com",
+        "date_accessed": "2026-11-16"
+      }
+    ]
+  }
+]
