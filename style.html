@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Groove Guide — 街舞舞風深度指南。認識歷史背景、音樂特色、代表動作與初學者入門方針。">
+  <title>舞風介紹 — Groove Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 頂部導覽列 -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo" aria-label="Groove Guide 首頁">
+        <span class="logo-badge">GROOVE</span>
+        <span>GUIDE</span>
+      </a>
+      <nav aria-label="網站導覽">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">首頁</a></li>
+          <li><a href="index.html#styles" class="nav-link">舞風介紹</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主要內容容器：由 js/main.js 依據網址 ?id= 參數動態渲染 -->
+  <main class="main-container">
+    <article id="style-detail-container" aria-live="polite">
+      <!-- 初始載入中提示 -->
+      <div class="state-box">
+        <h3>舞風資料載入中...</h3>
+        <p>請稍候，正在讀取街舞文化與動作解析資料。</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <strong>Groove Guide</strong> — 街舞新手入門指南
+      </div>
+      <div>
+        純靜態網頁架構・支援 GitHub Pages
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

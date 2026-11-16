@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Groove Guide — 街舞新手入門指南。認識 Hip-hop、Popping、Locking、Breaking、Waacking 五大經典舞風的歷史文化、節奏與動作技巧。">
+  <title>Groove Guide — 街舞新手入門指南</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 頂部導覽列 -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo" aria-label="Groove Guide 首頁">
+        <span class="logo-badge">GROOVE</span>
+        <span>GUIDE</span>
+      </a>
+      <nav aria-label="網站導覽">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">首頁</a></li>
+          <li><a href="#styles" class="nav-link">舞風介紹</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主要內容 -->
+  <main class="main-container">
+    
+    <!-- Hero 標語區 -->
+    <section class="hero-section">
+      <span class="hero-tag">STREET DANCE BASICS</span>
+      <h1 class="hero-title">
+        探索你的 <span>GROOVE</span><br>
+        街舞新手入門指南
+      </h1>
+      <p class="hero-desc">
+        專為剛接觸街舞的初學者設計。帶你深入認識 Hip-hop、Popping、Locking、Breaking 與 Waacking 的起源底蘊、音樂特色與核心動作技巧。
+      </p>
+      <div>
+        <a href="#styles" class="btn btn-primary">探索五大舞風 ↓</a>
+      </div>
+    </section>
+
+    <!-- 舞風列表展示區 -->
+    <section id="styles">
+      <div class="section-header">
+        <div class="section-label">DANCE STYLES</div>
+        <h2 class="section-title">經典舞風總覽</h2>
+      </div>
+
+      <!-- 由 js/main.js 動態渲染 data/styles.json -->
+      <div id="styles-grid" class="styles-grid">
+        <!-- 預設靜態連結保證無 JS 時或爬蟲亦可存取 -->
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: hip-hop</div>
+            <h3 class="card-title">Hip-hop (嘻哈舞)</h3>
+            <p class="card-desc">源自紐約街頭派對的經典舞風，強調身體自然的律動（Groove）與彈動（Bounce）。</p>
+          </div>
+          <div>
+            <a href="style.html?id=hip-hop" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: popping</div>
+            <h3 class="card-title">Popping (機械舞 / 震感舞)</h3>
+            <p class="card-desc">藉由肌肉迅速收縮與瞬間放鬆製造震動感（Pop/Hit），結合幾何關節控制的放克舞風。</p>
+          </div>
+          <div>
+            <a href="style.html?id=popping" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: locking</div>
+            <h3 class="card-title">Locking (鎖舞)</h3>
+            <p class="card-desc">充滿陽光活力、喜劇節奏與俐落停頓的放克舞風，以快速手腕旋轉與急停定格為特徵。</p>
+          </div>
+          <div>
+            <a href="style.html?id=locking" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: breaking</div>
+            <h3 class="card-title">Breaking (霹靂舞)</h3>
+            <p class="card-desc">嘻哈四大元素之一，結合站立搖滾步、近地排腿地力與極限旋轉定格的代表性舞風。</p>
+          </div>
+          <div>
+            <a href="style.html?id=breaking" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: waacking</div>
+            <h3 class="card-title">Waacking (甩手舞)</h3>
+            <p class="card-desc">起源於 1970 年代洛杉磯地下俱樂部，以極速肩膀手腕繞環與戲劇化姿態為特徵的舞風。</p>
+          </div>
+          <div>
+            <a href="style.html?id=waacking" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <div>
+            <div class="card-tag">ID: krump</div>
+            <h3 class="card-title">Krump (狂潮舞 / 狂舞)</h3>
+            <p class="card-desc">發源於洛杉磯南部街頭，以強烈爆發力的跺腳、胸震與揮臂為特色，強調釋放真實情感與精神能量的街頭舞風。</p>
+          </div>
+          <div>
+            <a href="style.html?id=krump" class="card-link">閱讀完整介紹 &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <strong>Groove Guide</strong> — 街舞新手入門指南
+      </div>
+      <div>
+        純靜態網頁架構・支援 GitHub Pages
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
