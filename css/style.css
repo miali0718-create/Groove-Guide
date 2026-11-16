@@ -1,0 +1,480 @@
+/* ==========================================================================
+   Groove Guide — Urban Street 視覺樣式系統
+   主色調：黑 (#0a0a0f, #12121a)、白 (#f8fafc)、螢光綠 (#00ff66)
+   ========================================================================== */
+
+:root {
+  --bg-main: #0a0a0f;
+  --bg-card: #13131c;
+  --bg-card-hover: #1a1a26;
+  --bg-badge: rgba(0, 255, 102, 0.12);
+
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+
+  --neon-green: #00ff66;
+  --neon-green-hover: #33ff85;
+  --neon-border: rgba(0, 255, 102, 0.35);
+
+  --border-color: #242436;
+  --border-strong: #383852;
+
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  --font-mono: Consolas, "SFMono-Regular", Menlo, monospace;
+
+  --max-width: 1080px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.65;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 頂部導覽列 */
+.site-header {
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgba(10, 10, 15, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-badge {
+  background-color: var(--neon-green);
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 900;
+  padding: 0.2rem 0.45rem;
+  border-radius: 3px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--neon-green);
+}
+
+/* 主要內容容器 */
+.main-container {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+  flex: 1;
+}
+
+/* 首頁 Hero 區塊 */
+.hero-section {
+  padding: 2.5rem 0 3rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 3rem;
+}
+
+.hero-tag {
+  display: inline-block;
+  background-color: var(--bg-badge);
+  border: 1px solid var(--neon-border);
+  color: var(--neon-green);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.hero-title span {
+  color: var(--neon-green);
+}
+
+.hero-desc {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+
+/* 按鈕樣式 */
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--neon-green);
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: var(--neon-green-hover);
+}
+
+.btn-outline {
+  border: 1px solid var(--border-strong);
+  color: var(--text-main);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+}
+
+/* 區塊標題 */
+.section-header {
+  margin-bottom: 1.75rem;
+}
+
+.section-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--neon-green);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+/* 舞風卡片網格 (首頁) */
+.styles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.style-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 3px solid var(--neon-green);
+}
+
+.style-card:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--neon-border);
+}
+
+.card-tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--neon-green);
+  margin-bottom: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+}
+
+.card-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.card-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--neon-green);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* 舞風詳細頁面 (style.html) */
+.detail-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs a {
+  color: var(--text-muted);
+}
+
+.breadcrumbs a:hover {
+  color: var(--neon-green);
+}
+
+.detail-id-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--neon-green);
+  background-color: var(--bg-badge);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.detail-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+}
+
+.detail-lead {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.detail-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail-block {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.75rem;
+}
+
+.block-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.block-title::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1rem;
+  background-color: var(--neon-green);
+}
+
+.block-text {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+/* 動作卡片 */
+.moves-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.move-card {
+  background-color: #171722;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.move-title {
+  font-weight: 700;
+  color: var(--neon-green);
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.move-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* 資料來源清單 */
+.sources-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.source-item {
+  background-color: #171722;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.85rem 1.1rem;
+}
+
+.source-link {
+  color: var(--neon-green);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.source-info {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-top: 0.25rem;
+}
+
+/* 個人觀察預設提示 */
+.observation-empty {
+  font-style: italic;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+/* 舞風導覽晶片 */
+.style-switch-nav {
+  margin-top: 3rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.75rem;
+}
+
+.style-chip {
+  padding: 0.4rem 0.85rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.style-chip:hover,
+.style-chip.active {
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+}
+
+/* 狀態盒 (載入中、錯誤) */
+.state-box {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 3rem auto;
+}
+
+.state-box h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.state-box p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+/* 頁尾 */
+.site-footer {
+  border-top: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  padding: 2rem 1.25rem;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
